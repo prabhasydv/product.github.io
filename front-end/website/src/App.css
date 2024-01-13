@@ -1,0 +1,490 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.home-page{
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100dvh;
+width: 100%;
+background-image: url(./img/Dear\ \(1\).jpg);
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -500px;
+}
+.text{
+text-decoration: none;
+color: #fff;
+}
+/*nav */
+header {
+background-color: #19253b59;
+box-shadow: 0 0 36px 0;
+backdrop-filter: blur(3px);
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 80%;
+margin: auto;
+padding: 1.2rem 0rem;
+}
+
+.logo {
+font-size: 1.3rem;
+font-weight: 800;
+color: white;
+}
+
+.logo a {
+color: #fff;
+text-decoration: none;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+padding: 0;
+background-color: transparent;
+overflow: hidden;
+}
+
+li {
+padding: 0rem 1.1rem;
+float: left;
+}
+
+li a {
+color: #ffffff;
+text-decoration: none;
+font-size: 1rem;
+font-weight: 600;
+letter-spacing: .7px;
+}
+
+li a:hover {
+color: #91b2ff;
+transition: all .3s ease-in-out
+}
+
+.button {
+display: flex;
+gap: 1rem;
+}
+
+button {
+font-weight: 500;
+color: #fff;
+border: 1px solid #fff;
+background-color: transparent;
+padding: .5rem 1rem;
+border-radius: 20%;
+cursor: pointer;
+}
+
+button:hover,
+button a:hover {
+background-color: #dddcdc;
+color: #152939;
+transition: all .3s ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-container {
+  background-color: #cecece;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.login-header {
+  background-color: #52606a;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.login-form {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-group button:hover {
+  background-color: #2980b9;
+}
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .signup {
+    margin-top: -300px; /* Adjust margin for smaller screens */
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .signup {
+    margin-top: -650px; /* Adjust margin for even smaller screens */
+  }
+  .signup-container{
+    margin-top: -150px;
+  }
+}
+.signup-container {
+  background-color: #cecece;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.signup-container h2 {
+  color: #333;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+.logindiv{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -500px;
+}
+.loginone{
+  text-decoration: none;
+  color: white;
+  
+}
+.yadav{
+  align-items: center;
+  margin-top: -450px;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+  justify-content: space-between;
+  
+}
+.box{
+  width: 30%; /* Adjust the width as needed */
+  margin: 0 5px; /* Adjust the margin as needed */
+  /* Additional styling for demonstration purposes */
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5rem;
+  background-color: #152939;
+  cursor: pointer;
+  
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -600px;
+  
+}
+
+.form {
+  width: 500px;
+  background-color: #9c8997;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.confirmation-message,
+.error-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.confirmation-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  .form {
+    max-width: 100%; /* Take full width on smaller screens */
+  }
+}
+.ring {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ring i {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
+.ring i:nth-child(1) {
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  animation: animate 6s linear infinite;
+}
+.ring i:nth-child(2) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate 4s linear infinite;
+}
+.ring i:nth-child(3) {
+  border-radius: 41% 44% 56% 59%/38% 62% 63% 37%;
+  animation: animate2 10s linear infinite;
+}
+.ring:hover i {
+  border: 6px solid var(--clr);
+  filter: drop-shadow(0 0 20px var(--clr));
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.login {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.login h2 {
+  font-size: 2em;
+  color: #fff;
+}
+.login .inputBx {
+  position: relative;
+  width: 100%;
+}
+.login .inputBx input {
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 40px;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: none;
+  outline: none;
+}
+.login .inputBx input[type="submit"] {
+  width: 100%;
+  background: #0078ff;
+  background: linear-gradient(45deg, #ff357a, #fff172);
+  border: none;
+  cursor: pointer;
+}
+.login .inputBx input::placeholder {
+  color: rgba(0, 0, 0, 0.75);
+}
+.login .links {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.login .links a {
+  color: #fff;
+  text-decoration: none;
+}
+.loggin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -730px;
+}
+.card-img-top{
+  background-image: url(./img/france.jpeg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-img-top2{
+  background-image: url(./img/dubai.jpeg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-img-top3{
+  background-image: url(./img/Amazing-touristic-alpine-village-with-famous-church-and-Staubbach-waterfall-Lauterbrunnen-Switzerland-Europe-1200x853.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/* Your existing CSS styles */
+
+
+@media screen and (max-width:600px) {
+  .yadav{
+    flex-direction: column; /* Change to a column layout on smaller screens */
+    margin-top: -600px; /* Reset margin-top for smaller screens */
+    height: auto; /* Allow the height to be flexible */
+    margin-right: 400px;
+    width: 100%;
+    margin-left: 40px;
+    
+    
+  }
+   
+}
+
+/* Additional styles for responsiveness can be added as needed */
